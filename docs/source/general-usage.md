@@ -1,6 +1,6 @@
 # General usage
 
-To hydrate existing object:
+To hydrate existing object change string:
 
 ```php
 use Yiisoft\Hydrator\Hydrator;
