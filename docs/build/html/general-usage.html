@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 
-<html lang="en" data-content_root="./">
+<html lang="ru" data-content_root="./">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>General usage &#8212; Lumache 0.1 documentation</title>
+    <title>Основное использование &#8212; документация Lumache 0.1</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=61cd365c" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
-    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/documentation_options.js?v=490fdf2e"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
+    <script src="_static/translations.js?v=29b1f277"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="prev" title="Usage" href="usage.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -31,22 +33,22 @@
           <div class="body" role="main">
             
   <section id="general-usage">
-<h1>General usage<a class="headerlink" href="#general-usage" title="Link to this heading">¶</a></h1>
-<p>To hydrate existing object:</p>
+<h1>Основное использование<a class="headerlink" href="#general-usage" title="Link to this heading">¶</a></h1>
+<p>Наполнение существующего объекта:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">use Yiisoft\Hydrator\Hydrator;</span>
 
 <span class="x">$hydrator = new Hydrator();</span>
 <span class="x">$hydrator-&gt;hydrate($object, $data);</span>
 </pre></div>
 </div>
-<p>To create a new object and fill it with the data:</p>
+<p>Создание нового объекта и заполнение данными:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">use Yiisoft\Hydrator\Hydrator;</span>
 
 <span class="x">$hydrator = new Hydrator();</span>
 <span class="x">$object = $hydrator-&gt;create(MyClass::class, $data);</span>
 </pre></div>
 </div>
-<p>To pass arguments to the constructor of a nested object, use nested array or dot-notation:</p>
+<p>Передача аргумента в конструктор:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">final class Engine</span>
 <span class="x">{</span>
 <span class="x">    public function __construct(</span>
@@ -77,8 +79,7 @@
 <span class="x">]);</span>
 </pre></div>
 </div>
-<p>That would pass the <code class="docutils literal notranslate"><span class="pre">name</span></code> constructor argument of the <code class="docutils literal notranslate"><span class="pre">Car</span></code> object and create a new <code class="docutils literal notranslate"><span class="pre">Engine</span></code> object for <code class="docutils literal notranslate"><span class="pre">engine</span></code>
-argument passing <code class="docutils literal notranslate"><span class="pre">V8</span></code> as the <code class="docutils literal notranslate"><span class="pre">name</span></code> argument to its constructor.</p>
+<p>Передача  <code class="docutils literal notranslate"><span class="pre">name</span></code>  в конструктор аргумента.</p>
 </section>
 
 
@@ -97,24 +98,26 @@ argument passing <code class="docutils literal notranslate"><span class="pre">V8
 
 
 
-<h3>Navigation</h3>
-<ul>
+<h3>Навигация</h3>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Основное использование</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="usage.html" title="предыдущая глава">Usage</a></li>
   </ul></li>
 </ul>
 </div>
 <search id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
+  <h3 id="searchlabel">Быстрый поиск</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
       <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
+      <input type="submit" value="Искать" />
     </form>
     </div>
 </search>
