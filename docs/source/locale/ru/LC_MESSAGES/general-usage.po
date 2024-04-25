@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 16:48+0500\n"
-"PO-Revision-Date: 2024-04-25 17:05+0500\n"
+"POT-Creation-Date: 2024-04-25 17:49+0500\n"
+"PO-Revision-Date: 2024-04-25 19:14+0500\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -26,8 +26,8 @@ msgid "General usage"
 msgstr "Основное использование"
 
 #: ../../source/general-usage.md:3
-msgid "To hydrate existing object:"
-msgstr "Наполнение существующего объекта:"
+msgid "To hydrate existing object change string:"
+msgstr "Наполнение существующего объекта изменена строка:"
 
 #: ../../source/general-usage.md:12
 msgid "To create a new object and fill it with the data:"
