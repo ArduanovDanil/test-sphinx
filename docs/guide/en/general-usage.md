@@ -1,6 +1,6 @@
 # General usage
 
-To hydrate existing object change string:
+To hydrate existing object add new string:
 
 ```php
 use Yiisoft\Hydrator\Hydrator;
@@ -52,4 +52,4 @@ $object = $hydrator->create(Car::class, [
 ```
 
 That would pass the `name` constructor argument of the `Car` object and create a new `Engine` object for `engine`
-argument passing `V8` as the `name` argument to its constructor.
+argument passing `V8` as the `name` argument to its constructor add new string.
