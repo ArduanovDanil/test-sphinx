@@ -26,3 +26,7 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# -- Localization  -------------------------------------------------
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
