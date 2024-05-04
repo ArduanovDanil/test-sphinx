@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 17:49+0500\n"
+"POT-Creation-Date: 2024-05-04 12:07+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -24,7 +24,7 @@ msgid "General usage"
 msgstr ""
 
 #: ../../source/general-usage.md:3
-msgid "To hydrate existing object change string:"
+msgid "To hydrate existing object change string changed:"
 msgstr ""
 
 #: ../../source/general-usage.md:12
@@ -43,7 +43,4 @@ msgid ""
 "create a new `Engine` object for `engine` argument passing `V8` as the "
 "`name` argument to its constructor."
 msgstr ""
-
-#~ msgid "To hydrate existing object:"
-#~ msgstr ""
 

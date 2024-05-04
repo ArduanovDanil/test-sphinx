@@ -34,21 +34,21 @@
             
   <section id="general-usage">
 <h1>Основное использование<a class="headerlink" href="#general-usage" title="Link to this heading">¶</a></h1>
-<p>Наполнение существующего объекта:</p>
+<p>Для гидрации существующего объекта:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">use Yiisoft\Hydrator\Hydrator;</span>
 
 <span class="x">$hydrator = new Hydrator();</span>
 <span class="x">$hydrator-&gt;hydrate($object, $data);</span>
 </pre></div>
 </div>
-<p>Создание нового объекта и заполнение данными:</p>
+<p>Для создания нового объекта:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">use Yiisoft\Hydrator\Hydrator;</span>
 
 <span class="x">$hydrator = new Hydrator();</span>
 <span class="x">$object = $hydrator-&gt;create(MyClass::class, $data);</span>
 </pre></div>
 </div>
-<p>Передача аргумента в конструктор:</p>
+<p>Передача аргументов:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">final class Engine</span>
 <span class="x">{</span>
 <span class="x">    public function __construct(</span>
@@ -79,7 +79,7 @@
 <span class="x">]);</span>
 </pre></div>
 </div>
-<p>Передача  <code class="docutils literal notranslate"><span class="pre">name</span></code>  в конструктор аргумента.</p>
+<p>Это передает название в конструктор</p>
 </section>
 
 
