@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 12:07+0500\n"
-"PO-Revision-Date: 2024-05-04 12:21+0500\n"
+"POT-Creation-Date: 2024-05-13 20:23+0500\n"
+"PO-Revision-Date: 2024-05-13 20:26+0500\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -19,29 +19,34 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #: ../../source/general-usage.md:1
 msgid "General usage"
-msgstr "Основное использование"
+msgstr "Общее использование"
 
 #: ../../source/general-usage.md:3
-msgid "To hydrate existing object change string changed:"
-msgstr "Для гидрации существующего объекта:"
+msgid "To hydrate existing object change string changed change:"
+msgstr "Заполнение существующего объекта из тестовое изменение:"
 
 #: ../../source/general-usage.md:12
 msgid "To create a new object and fill it with the data:"
-msgstr "Для создания нового объекта:"
+msgstr "Создание нового объекта и заполнение его данными:"
 
 #: ../../source/general-usage.md:21
 msgid ""
 "To pass arguments to the constructor of a nested object, use nested "
 "array or dot-notation:"
-msgstr "Передача аргументов:"
+msgstr ""
+"Для передачи аргументов в конструктор вложенного объекта используйте "
+"вложенный массив или запись «через точку»:"
 
 #: ../../source/general-usage.md:54
 msgid ""
 "That would pass the `name` constructor argument of the `Car` object and "
 "create a new `Engine` object for `engine` argument passing `V8` as the "
 "`name` argument to its constructor."
-msgstr "Это передает название в конструктор"
+msgstr ""
+"В примере выше в name передается аргумент конструктора объекта Car и "
+"создается новый объект Engine для аргумента engine, куда передается "
+"значение V8 как аргумент name конструктора."
