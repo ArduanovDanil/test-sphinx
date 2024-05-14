@@ -10,8 +10,6 @@ Contents
 --------
 
 .. toctree::
-
-   usage
    
    general-usage
 

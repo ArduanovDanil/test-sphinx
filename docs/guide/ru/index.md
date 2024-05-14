@@ -7,8 +7,6 @@ Facts database](https://world.openfoodfacts.org/) and offers a *simple* and
 
 ## Contents
 
-* [Usage](usage.md)
-  * [Installation](usage.md#installation)
 * [Общее использование](general-usage.md)
 
 #### NOTE

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 20:23+0500\n"
+"POT-Creation-Date: 2024-05-14 19:03+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,6 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: ../../source/index.rst:20
+#: ../../source/index.rst:18
 msgid "This project is under active development."
 msgstr ""
