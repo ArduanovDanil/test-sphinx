@@ -16,6 +16,7 @@ use Yiisoft\Hydrator\Hydrator;
 
 $hydrator = new Hydrator();
 $object = $hydrator->create(MyClass::class, $data);
+$test = 1;
 ```
 
 To pass arguments to the constructor of a nested object, use nested array or dot-notation:
