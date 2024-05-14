@@ -19,6 +19,10 @@ extensions = ['myst_parser', 'sphinx_markdown_builder']
 templates_path = ['_templates']
 exclude_patterns = []
 
+# -- Translate code blocks ---------------------------------------------------
+# https://stackoverflow.com/questions/61248191/how-to-translate-comments-in-code-blocks-using-sphinx
+gettext_additional_targets = ['literal-block']
+
 
 
 # -- Options for HTML output -------------------------------------------------
