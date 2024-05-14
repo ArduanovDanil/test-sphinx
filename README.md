@@ -11,9 +11,9 @@
 
 Команды выполнять в папке docs
 
-1. make gettext
+1. Внести изменения в docs/source/general-usage.md, выполнить make gettext
 
-2. sphinx-intl update -p build/gettext -l ru
+2. Сгенерировать .po файлы командой sphinx-intl update -p build/gettext -l ru
 
 3. Перевести .po файлы в редактора файлов .po (Poedit, Gtranslator etc.) в папке docs/source/locale/ru/LC_MESSAGES
 
