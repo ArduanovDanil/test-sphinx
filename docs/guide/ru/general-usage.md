@@ -16,6 +16,7 @@ use Yiisoft\Hydrator\Hydrator;
 
 $hydrator = new Hydrator();
 $object = $hydrator->create(MyClass::class, $data);
+$test = 1;
 ```
 
 Для передачи аргументов в конструктор вложенного объекта используйте вложенный массив или запись «через точку»:
@@ -36,7 +37,7 @@ final class Car
     ) {}
 }
 
-// nested array
+// nested arrays
 $object = $hydrator->create(Car::class, [
     'name' => 'Ferrari',
     'engine' => [
