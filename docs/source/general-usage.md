@@ -54,3 +54,39 @@ $object = $hydrator->create(Car::class, [
 
 That would pass the `name` constructor argument of the `Car` object and create a new `Engine` object for `engine`
 argument passing `V8` as the `name` argument to its constructor.
+
+| Place | User     | Rating  |
+|-------|----------|---------|
+| 1     | Sasha    | 118     |
+| 2     | Ivan     | 92      |
+| 3     | Ivan     | 36      |
+
+- [x] One
+- [x] Two
+- [ ] Three
+    - [x] Three
+    - [x] Three
+    - [ ] Three
+- [ ] Four
+
+~~Hello, Ivan!~~\
+Hello, Ivan!
+
+Hellow, [Doka](https://doka.guide "Page about web-dev")!
+
+[Doka][1] have own [repository][repo].
+
+
+[1]: https://doka.guide "Энциклопедия про web-dev"
+[repo]: https://github.com/doka-guide "Репозиторий Доки"
+
+1. One
+1. One One
+1. One
+1. One
+
+
+* One
+* OneOneOne
+    * One
+    * OneOne
