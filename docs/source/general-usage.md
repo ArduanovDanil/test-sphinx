@@ -90,3 +90,19 @@ Hellow, [Doka](https://doka.guide "Page about web-dev")!
 * OneOneOne
     * One
     * OneOne
+
+See the [Using keys containing separator / shortcut] section for more
+details.
+
+# Yii Validator
+
+A package for validating data.
+
+## Guides
+
+### Validation
+
+- [Result](index.rst)
+
+
+[Using keys containing separator / shortcut]: built-in-rules-nested.md#using-keys-containing-separator--shortcut

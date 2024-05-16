@@ -8,6 +8,9 @@ Facts database](https://world.openfoodfacts.org/) and offers a *simple* and
 ## Contents
 
 * [Общее использование](general-usage.md)
+* [Валидатор](general-usage.md#yii-validator)
+  * [Гайды](general-usage.md#guides)
+    * [Валидация](general-usage.md#validation)
 
 #### NOTE
 This project is under active development.

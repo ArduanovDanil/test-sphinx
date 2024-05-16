@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 21:04+0500\n"
-"PO-Revision-Date: 2024-05-16 21:09+0500\n"
+"POT-Creation-Date: 2024-05-16 21:29+0500\n"
+"PO-Revision-Date: 2024-05-16 21:41+0500\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -230,3 +230,34 @@ msgstr "Один один один"
 #: ../../source/general-usage.md:92
 msgid "OneOne"
 msgstr "Один один"
+
+#: ../../source/general-usage.md:94
+msgid ""
+"See the [Using keys containing separator / shortcut] section for more "
+"details."
+msgstr ""
+"Смотрите  секцию [Using keys containing separator / shortcut] для более "
+"детальной информации."
+
+#: ../../source/general-usage.md:97
+msgid "Yii Validator"
+msgstr "Валидатор"
+
+#: ../../source/general-usage.md:99
+msgid "A package for validating data."
+msgstr "Пакет для валидации данных."
+
+#: ../../source/general-usage.md:101
+msgid "Guides"
+msgstr "Гайды"
+
+#: ../../source/general-usage.md:103
+msgid "Validation"
+msgstr "Валидация"
+
+#: ../../source/general-usage.md:105
+msgid "[Result](index.rst)"
+msgstr "[Результаты](index.rst)"
+
+#~ msgid "See the [Result page]"
+#~ msgstr "See the [Result page]"

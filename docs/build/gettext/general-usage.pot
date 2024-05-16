@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 21:04+0500\n"
+"POT-Creation-Date: 2024-05-16 21:29+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,4 +181,28 @@ msgstr ""
 
 #: ../../source/general-usage.md:92
 msgid "OneOne"
+msgstr ""
+
+#: ../../source/general-usage.md:94
+msgid "See the [Using keys containing separator / shortcut] section for more details."
+msgstr ""
+
+#: ../../source/general-usage.md:97
+msgid "Yii Validator"
+msgstr ""
+
+#: ../../source/general-usage.md:99
+msgid "A package for validating data."
+msgstr ""
+
+#: ../../source/general-usage.md:101
+msgid "Guides"
+msgstr ""
+
+#: ../../source/general-usage.md:103
+msgid "Validation"
+msgstr ""
+
+#: ../../source/general-usage.md:105
+msgid "[Result](index.rst)"
 msgstr ""
