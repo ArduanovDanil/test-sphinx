@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 19:20+0500\n"
+"POT-Creation-Date: 2024-05-16 21:04+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,4 +83,102 @@ msgstr ""
 
 #: ../../source/general-usage.md:55
 msgid "That would pass the `name` constructor argument of the `Car` object and create a new `Engine` object for `engine` argument passing `V8` as the `name` argument to its constructor."
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "Place"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "User"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "Rating"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "1"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "Sasha"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "118"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "2"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "Ivan"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "92"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "3"
+msgstr ""
+
+#: ../../source/general-usage.md:0
+msgid "36"
+msgstr ""
+
+#: ../../source/general-usage.md:64
+msgid "[x] One"
+msgstr ""
+
+#: ../../source/general-usage.md:65
+msgid "[x] Two"
+msgstr ""
+
+#: ../../source/general-usage.md:66
+#: ../../source/general-usage.md:69
+msgid "[ ] Three"
+msgstr ""
+
+#: ../../source/general-usage.md:67
+#: ../../source/general-usage.md:68
+msgid "[x] Three"
+msgstr ""
+
+#: ../../source/general-usage.md:70
+msgid "[ ] Four"
+msgstr ""
+
+#: ../../source/general-usage.md:72
+msgid "~~Hello, Ivan!~~\\ Hello, Ivan!"
+msgstr ""
+
+#: ../../source/general-usage.md:75
+msgid "Hellow, [Doka](https://doka.guide \"Page about web-dev\")!"
+msgstr ""
+
+#: ../../source/general-usage.md:77
+msgid "[Doka][1] have own [repository][repo]."
+msgstr ""
+
+#: ../../source/general-usage.md:83
+#: ../../source/general-usage.md:85
+#: ../../source/general-usage.md:86
+#: ../../source/general-usage.md:89
+#: ../../source/general-usage.md:91
+msgid "One"
+msgstr ""
+
+#: ../../source/general-usage.md:84
+msgid "One One"
+msgstr ""
+
+#: ../../source/general-usage.md:90
+msgid "OneOneOne"
+msgstr ""
+
+#: ../../source/general-usage.md:92
+msgid "OneOne"
 msgstr ""

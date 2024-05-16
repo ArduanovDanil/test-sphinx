@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 19:20+0500\n"
-"PO-Revision-Date: 2024-05-14 19:23+0500\n"
+"POT-Creation-Date: 2024-05-16 21:04+0500\n"
+"PO-Revision-Date: 2024-05-16 21:09+0500\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -136,3 +136,97 @@ msgstr ""
 "В примере выше в name передается аргумент конструктора объекта Car и "
 "создается новый объект Engine для аргумента engine, куда передается "
 "значение V8 как аргумент name конструктора."
+
+#: ../../source/general-usage.md
+msgid "Place"
+msgstr "Место"
+
+#: ../../source/general-usage.md
+msgid "User"
+msgstr "Пользователь"
+
+#: ../../source/general-usage.md
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: ../../source/general-usage.md
+msgid "1"
+msgstr "1"
+
+#: ../../source/general-usage.md
+msgid "Sasha"
+msgstr "Саша"
+
+#: ../../source/general-usage.md
+msgid "118"
+msgstr "118"
+
+#: ../../source/general-usage.md
+msgid "2"
+msgstr "2"
+
+#: ../../source/general-usage.md
+msgid "Ivan"
+msgstr "Иван"
+
+#: ../../source/general-usage.md
+msgid "92"
+msgstr "92"
+
+#: ../../source/general-usage.md
+msgid "3"
+msgstr "3"
+
+#: ../../source/general-usage.md
+msgid "36"
+msgstr "36"
+
+#: ../../source/general-usage.md:64
+msgid "[x] One"
+msgstr "[x] Один"
+
+#: ../../source/general-usage.md:65
+msgid "[x] Two"
+msgstr "[x] Два"
+
+#: ../../source/general-usage.md:66 ../../source/general-usage.md:69
+msgid "[ ] Three"
+msgstr "[ ] Три"
+
+#: ../../source/general-usage.md:67 ../../source/general-usage.md:68
+msgid "[x] Three"
+msgstr "[x] Три"
+
+#: ../../source/general-usage.md:70
+msgid "[ ] Four"
+msgstr "[ ] Четыре"
+
+#: ../../source/general-usage.md:72
+msgid "~~Hello, Ivan!~~\\ Hello, Ivan!"
+msgstr "~~Привет, Иван!~~\\Привет, Иван!"
+
+#: ../../source/general-usage.md:75
+msgid "Hellow, [Doka](https://doka.guide \"Page about web-dev\")!"
+msgstr "Привет, [Дока](https://doka.guide \"Страница о web-dev\")!"
+
+#: ../../source/general-usage.md:77
+msgid "[Doka][1] have own [repository][repo]."
+msgstr "[Дока][1] имеет свой собственный [репозиторий][repo]."
+
+#: ../../source/general-usage.md:83 ../../source/general-usage.md:85
+#: ../../source/general-usage.md:86 ../../source/general-usage.md:89
+#: ../../source/general-usage.md:91
+msgid "One"
+msgstr "Один"
+
+#: ../../source/general-usage.md:84
+msgid "One One"
+msgstr "Один один"
+
+#: ../../source/general-usage.md:90
+msgid "OneOneOne"
+msgstr "Один один один"
+
+#: ../../source/general-usage.md:92
+msgid "OneOne"
+msgstr "Один один"
