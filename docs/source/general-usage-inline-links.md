@@ -72,9 +72,9 @@ argument passing `V8` as the `name` argument to its constructor.
 ~~Hello, Ivan!~~\
 Hello, Ivan!
 
-Hello, [Doka](https://doka.guide "Page about web-dev")!
+Hellow, [Doka](https://doka.guide "Page about web-dev")!
 
-[Doka](https://doka.guide "Info about web-dev") have own [repository](https://github.com/doka-guide "Doka's repository").
+[Doka](https://doka.guide "Энциклопедия про web-dev") have own [repository](https://github.com/doka-guide "Репозиторий Доки").
 
 1. One
 1. One One
@@ -84,8 +84,8 @@ Hello, [Doka](https://doka.guide "Page about web-dev")!
 
 * One
 * OneOneOne
-  * One
-  * OneOne
+    * One
+    * OneOne
 
 See the [Using keys containing separator / shortcut](./built-in-rules-nested.md#using-keys-containing-separator--shortcut) section for more
 details.

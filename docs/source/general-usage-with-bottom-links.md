@@ -72,9 +72,9 @@ argument passing `V8` as the `name` argument to its constructor.
 ~~Hello, Ivan!~~\
 Hello, Ivan!
 
-Hello, [Doka](https://doka.guide "Page about web-dev")!
+Hellow, [Doka](https://doka.guide "Page about web-dev")!
 
-[Doka](https://doka.guide "Info about web-dev") have own [repository](https://github.com/doka-guide "Doka's repository").
+[Doka][1] have own [repository][repo].
 
 1. One
 1. One One
@@ -84,13 +84,13 @@ Hello, [Doka](https://doka.guide "Page about web-dev")!
 
 * One
 * OneOneOne
-  * One
-  * OneOne
+    * One
+    * OneOne
 
-See the [Using keys containing separator / shortcut](./built-in-rules-nested.md#using-keys-containing-separator--shortcut) section for more
+See the [Using keys containing separator / shortcut][shortcut] section for more
 details.
 
-Using php [attributes](./built-in-rules-nested.md#using-php-attributes)
+Using php [attributes][attr]
 
 # Yii Validator
 
@@ -100,4 +100,10 @@ A package for validating data.
 
 ### Validation
 
-- [Result](./index.rst)
+- [Result](index.rst)
+
+
+[shortcut]: built-in-rules-nested.md#using-keys-containing-separator--shortcut
+[attr]: built-in-rules-nested.md#using-php-attributes
+[1]: https://doka.guide "Энциклопедия про web-dev"
+[repo]: https://github.com/doka-guide "Репозиторий Доки"
