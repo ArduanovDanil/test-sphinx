@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-17 12:08+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: general-usage.md:2
+msgid "# General usage"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:4
+msgid "To hydrate existing object change string changed change:"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:7 general-usage.md:16
+msgid "```php use Yiisoft\\Hydrator\\Hydrator;"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:11
+msgid "$hydrator = new Hydrator(); $hydrator->hydrate($object, $data); ```"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:13
+msgid "To create a new object and fill it with the data:"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:21
+msgid ""
+"$hydrator = new Hydrator(); $object = $hydrator->create(MyClass::class, "
+"$data); $test = 1; ```"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:23
+msgid ""
+"To pass arguments to the constructor of a nested object, use nested array or "
+"dot-notation:"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:31
+#, no-wrap
+msgid ""
+"```php\n"
+"final class Engine\n"
+"{\n"
+"    public function __construct(\n"
+"        private string $name,\n"
+"    ) {}\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:39
+#, no-wrap
+msgid ""
+"final class Car\n"
+"{\n"
+"    public function __construct(\n"
+"        private string $name,\n"
+"        private Engine $engine,\n"
+"    ) {}\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:47
+#, no-wrap
+msgid ""
+"// nested arrays\n"
+"$object = $hydrator->create(Car::class, [\n"
+"    'name' => 'Ferrari',\n"
+"    'engine' => [\n"
+"        'name' => 'V8',\n"
+"    ]\n"
+"]);\n"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:54
+#, no-wrap
+msgid ""
+"// or dot-notation\n"
+"$object = $hydrator->create(Car::class, [\n"
+"    'name' => 'Ferrari',\n"
+"    'engine.name' => 'V8',\n"
+"]);\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:57
+msgid ""
+"That would pass the `name` constructor argument of the `Car` object and "
+"create a new `Engine` object for `engine` argument passing `V8` as the "
+"`name` argument to its constructor."
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:63
+#, no-wrap
+msgid ""
+"| Place | User     | Rating  |\n"
+"|-------|----------|---------|\n"
+"| 1     | Sasha    | 118     |\n"
+"| 2     | Ivan     | 92      |\n"
+"| 3     | Ivan     | 36      |\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: general-usage.md:71
+#, markdown-text
+msgid "[x] One"
+msgstr ""
+
+#. type: Bullet: '- '
+#: general-usage.md:71
+#, markdown-text
+msgid "[x] Two"
+msgstr ""
+
+#. type: Bullet: '    - '
+#: general-usage.md:71
+#, markdown-text
+msgid "[ ] Three"
+msgstr ""
+
+#. type: Bullet: '    - '
+#: general-usage.md:71
+#, markdown-text
+msgid "[x] Three"
+msgstr ""
+
+#. type: Bullet: '- '
+#: general-usage.md:71
+#, markdown-text
+msgid "[ ] Four"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:74
+msgid "~~Hello, Ivan!~~\\ Hello, Ivan!"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:76
+msgid "Hellow, [Doka](https://doka.guide \"Page about web-dev\")!"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:78
+msgid "[Doka][1] have own [repository][repo]."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: general-usage.md:83 general-usage.md:89
+#, markdown-text
+msgid "One"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: general-usage.md:83
+#, markdown-text
+msgid "One One"
+msgstr ""
+
+#. type: Bullet: '* '
+#: general-usage.md:89
+#, markdown-text
+msgid "OneOneOne"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: general-usage.md:89
+#, markdown-text
+msgid "OneOne"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:92
+msgid ""
+"See the [Using keys containing separator / shortcut][shortcut] section for "
+"more details."
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:94
+msgid "Using php [attributes][attr]"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:96
+msgid "# Yii Validator"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:98
+msgid "A package for validating data."
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:100
+msgid "## Guides"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:102
+msgid "### Validation"
+msgstr ""
+
+#. type: Bullet: '- '
+#: general-usage.md:104
+#, markdown-text
+msgid "[Result](index.rst)"
+msgstr ""
+
+#. type: Plain text
+#: general-usage.md:109
+msgid ""
+"[shortcut]: "
+"built-in-rules-nested.md#using-keys-containing-separator--shortcut [attr]: "
+"built-in-rules-nested.md#using-php-attributes [1]: https://doka.guide "
+"\"Ð­Ð½ÑÐ¸ÐºÐ»Ð¾Ð¿ÐµÐ´Ð¸Ñ Ð¿ÑÐ¾ web-dev\" [repo]: "
+"https://github.com/doka-guide \"Ð ÐµÐ¿Ð¾Ð·Ð¸ÑÐ¾ÑÐ¸Ð¹ ÐÐ¾ÐºÐ¸\""
+msgstr ""
