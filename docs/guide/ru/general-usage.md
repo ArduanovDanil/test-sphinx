@@ -83,7 +83,9 @@ $object = $hydrator->create(Car::class, [
   * Один
   * Один один
 
-Смотрите  секцию [Using keys containing separator / shortcut] для более детальной информации.
+Смотрите секцию [Использование ключей][shortcut] для большей информации .
+
+Использование PHP [атрибутов][attr]
 
 # Валидатор
 

@@ -76,10 +76,6 @@ Hellow, [Doka](https://doka.guide "Page about web-dev")!
 
 [Doka][1] have own [repository][repo].
 
-
-[1]: https://doka.guide "Энциклопедия про web-dev"
-[repo]: https://github.com/doka-guide "Репозиторий Доки"
-
 1. One
 1. One One
 1. One
@@ -91,8 +87,10 @@ Hellow, [Doka](https://doka.guide "Page about web-dev")!
     * One
     * OneOne
 
-See the [Using keys containing separator / shortcut] section for more
+See the [Using keys containing separator / shortcut][shortcut] section for more
 details.
+
+Using php [attributes][attr]
 
 # Yii Validator
 
@@ -105,4 +103,7 @@ A package for validating data.
 - [Result](index.rst)
 
 
-[Using keys containing separator / shortcut]: built-in-rules-nested.md#using-keys-containing-separator--shortcut
+[shortcut]: built-in-rules-nested.md#using-keys-containing-separator--shortcut
+[attr]: built-in-rules-nested.md#using-php-attributes
+[1]: https://doka.guide "Энциклопедия про web-dev"
+[repo]: https://github.com/doka-guide "Репозиторий Доки"

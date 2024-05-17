@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lumache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 21:29+0500\n"
-"PO-Revision-Date: 2024-05-16 21:41+0500\n"
+"POT-Creation-Date: 2024-05-17 10:47+0500\n"
+"PO-Revision-Date: 2024-05-17 11:15+0500\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -213,49 +213,52 @@ msgstr "Привет, [Дока](https://doka.guide \"Страница о web-de
 msgid "[Doka][1] have own [repository][repo]."
 msgstr "[Дока][1] имеет свой собственный [репозиторий][repo]."
 
-#: ../../source/general-usage.md:83 ../../source/general-usage.md:85
-#: ../../source/general-usage.md:86 ../../source/general-usage.md:89
-#: ../../source/general-usage.md:91
+#: ../../source/general-usage.md:79 ../../source/general-usage.md:81
+#: ../../source/general-usage.md:82 ../../source/general-usage.md:85
+#: ../../source/general-usage.md:87
 msgid "One"
 msgstr "Один"
 
-#: ../../source/general-usage.md:84
+#: ../../source/general-usage.md:80
 msgid "One One"
 msgstr "Один один"
 
-#: ../../source/general-usage.md:90
+#: ../../source/general-usage.md:86
 msgid "OneOneOne"
 msgstr "Один один один"
 
-#: ../../source/general-usage.md:92
+#: ../../source/general-usage.md:88
 msgid "OneOne"
 msgstr "Один один"
 
-#: ../../source/general-usage.md:94
+#: ../../source/general-usage.md:90
 msgid ""
-"See the [Using keys containing separator / shortcut] section for more "
-"details."
+"See the [Using keys containing separator / shortcut][shortcut] section "
+"for more details."
 msgstr ""
-"Смотрите  секцию [Using keys containing separator / shortcut] для более "
-"детальной информации."
+"Смотрите секцию [Использование ключей][shortcut] для большей информации ."
 
-#: ../../source/general-usage.md:97
+#: ../../source/general-usage.md:93
+msgid "Using php [attributes][attr]"
+msgstr "Использование PHP [атрибутов][attr]"
+
+#: ../../source/general-usage.md:95
 msgid "Yii Validator"
 msgstr "Валидатор"
 
-#: ../../source/general-usage.md:99
+#: ../../source/general-usage.md:97
 msgid "A package for validating data."
 msgstr "Пакет для валидации данных."
 
-#: ../../source/general-usage.md:101
+#: ../../source/general-usage.md:99
 msgid "Guides"
 msgstr "Гайды"
 
-#: ../../source/general-usage.md:103
+#: ../../source/general-usage.md:101
 msgid "Validation"
 msgstr "Валидация"
 
-#: ../../source/general-usage.md:105
+#: ../../source/general-usage.md:103
 msgid "[Result](index.rst)"
 msgstr "[Результаты](index.rst)"
 
