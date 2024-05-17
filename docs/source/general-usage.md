@@ -37,7 +37,7 @@ final class Car
     ) {}
 }
 
-// nested arrays
+// use nested arrays
 $object = $hydrator->create(Car::class, [
     'name' => 'Ferrari',
     'engine' => [
